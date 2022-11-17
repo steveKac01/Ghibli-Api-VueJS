@@ -1,4 +1,4 @@
-# vue-axios
+# API Ghibli movies
 
 ## Project setup
 ```
