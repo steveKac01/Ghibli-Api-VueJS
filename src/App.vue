@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-    <nav>
- 
-      <router-link to="/films">Movie list</router-link> 
-    
- 
- </nav>
+  
     <router-view/>
   </div>
 </template>
