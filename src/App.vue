@@ -6,20 +6,6 @@
 </template>
 
 
-<script>/*
- import FilmsList from './views/FilmsList'
-import FilmDetails from './views/FilmsDetails'
-
-export default {
-  components: {
- FilmsList,FilmDetails
-  }
-
-}*/ 
-</script>
-
-
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

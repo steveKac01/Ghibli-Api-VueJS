@@ -1,4 +1,5 @@
 <template><div>
+    <h1>Ghibli movie list</h1>
     <table class="styled-table">
         <thead>
             <tr>
@@ -52,12 +53,15 @@ export default {
 }
 </script>
 <style scoped>
+h1{
+    display: block;
+}
 tr td:last-of-type:hover{
     cursor: pointer;
 }
 .styled-table {
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: 25px auto;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 800px;
@@ -87,8 +91,5 @@ tr td:last-of-type:hover{
     font-weight: bold;
     color: #009879;
 }
-div{
-    display: flex;
-    justify-content: center;
-}
+
 </style>
